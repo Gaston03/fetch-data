@@ -28,7 +28,6 @@ const Content = ({currentItem, data}) => {
                             <th>postId</th>
                             <th>name</th>
                             <th>email</th>
-                            <th>phone</th>
                             <th>body</th>
                         </tr>
                     ))
