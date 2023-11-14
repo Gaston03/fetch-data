@@ -11,3 +11,37 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  column-gap: 0;
+  width: 100%;
+  position: fixed;
+}
+
+button {
+  text-align: center;
+  width: 34%;
+  padding: 8px 0;
+  cursor: pointer;
+}
+
+.selectedItem {
+  background-color: rgb(15, 14, 14);
+  color: white;
+}
+
+button:focus {
+  border-style: 1px solid;
+}
+
+main {
+  padding-top: 35px;
+}
+
+td, th {
+  border: 1px solid black;
+  padding: 8px;
+  text-align: left;
+}
